@@ -12,6 +12,17 @@ You have 2 choises to define these pre-processor constants :
 - #define _LVL (exp: #define _VERBOSE) before include the header
 - add definition to gcc/g++ compile command, with C(XX)FLAGS with -D_LVL (exp: -D_FULL_LOG).
 
+For add a log display, just choice level (for example info) and use it like this :
+```
+INFO(context,text_to_print)
+```
+with *context* a word (or very short expression) to indicate context of log, for example if you add some log in the socket listener of your program say something like "listener". And text\_to\_print a simple string that will be print.
+
+So we could write :
+```
+INFO("listener","new connection")
+```
+
 ### Colors
 
 - verbose -> white
