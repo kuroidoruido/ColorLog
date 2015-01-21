@@ -2,7 +2,7 @@
  * A basic C/C++ color log macro.
  *
  * @author Anthony Pena <anthony.pena@outlook.fr>
- * @version 1.0.0
+ * @version 0.0.1
  */
 #ifndef __COLOR_LOG__
 #define __COLOR_LOG__
