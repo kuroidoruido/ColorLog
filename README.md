@@ -38,3 +38,17 @@ At this time, coloration of the output use the ANSI method, so it's currently no
 ### Examples
 
 You can find two examples, one in C and the other in C++, in examples directory.
+
+### ChangeLog
+
+**0.0.2** (01/22/2015)
+- rename flags for unifing naming
+- add _LOG_NO_COLOR flag to disabling coloration
+- add _LOG_COLOR flag to force enabling coloration
+- auto disable color for windows systems
+- print all type with %s,%d,%p,etc. like in printf (for example)
+
+**0.0.1** (01/21/2015)
+- log basic string with a context
+- color for each level of log
+- flags for enable all levels or each level separately
