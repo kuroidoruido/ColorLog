@@ -33,7 +33,7 @@ INFO("listener","new connection")
 
 ### Compatibility
 
-At this time, coloration of the output use the ANSI method, so it's currently not compatible to Windows OSs, maybe in a future version, but it's fully compatible with all Unix and Linux systems.
+At this time, it's fully compatible with all Unix and Linux systems but not with Windows systems.
 
 ### Examples
 
