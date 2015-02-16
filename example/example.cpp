@@ -6,6 +6,9 @@
  * or
  * g++ example.cpp -o example_cpp -D_LOG_WARNING -D_LOG_INFO
  *   to print only warning and info levels
+ * or
+ * g++ example.cpp -o example_cpp -D_LOG_ALL -D_LOG_NO_VERBOSE
+ *   to print all log line except verbose level
  */
 
 int main(int argc, char* argv[]) {
