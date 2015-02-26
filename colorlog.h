@@ -2,7 +2,7 @@
  * A basic C/C++ color log macro.
  *
  * @author Anthony Pena <anthony.pena@outlook.fr>
- * @version 0.0.3
+ * @version 0.0.4
  */
 #ifndef __COLOR_LOG__
 #define __COLOR_LOG__
@@ -20,11 +20,22 @@
 #endif
 
 #ifdef _LOG_ALL
-	#define _LOG_VERBOSE
-	#define _LOG_WARNING
-	#define _LOG_ALERT
-	#define _LOG_INFO
-	#define _LOG_SUCCESS
+	
+	#ifndef _LOG_VERBOSE
+		#define _LOG_VERBOSE
+	#endif
+	#ifndef _LOG_WARNING
+		#define _LOG_WARNING
+	#endif
+	#ifndef _LOG_ALERT
+		#define _LOG_ALERT
+	#endif
+	#ifndef _LOG_INFO
+		#define _LOG_INFO
+	#endif
+	#ifndef _LOG_SUCCESS
+		#define _LOG_SUCCESS
+	#endif
 #endif
 
 // force disabling coloration on windows systems
